@@ -1,4 +1,5 @@
 # projects: kickstarter.css("li.project.grid_4")
+# title: project.css("h2.bbcard_name strong a").text
 
 # require libraries/modules here
 require 'nokogiri'
