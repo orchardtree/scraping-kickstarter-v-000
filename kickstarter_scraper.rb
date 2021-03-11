@@ -3,7 +3,7 @@
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 # location: project.css("ul.project-meta a span")[1].text
-# percentage: project.css("ul.project-stats li.first.funded strong").text
+# percentage: project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i
 
 # require libraries/modules here
 require 'nokogiri'
