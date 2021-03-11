@@ -3,6 +3,7 @@
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 # location: project.css("ul.project-meta a span")[1].text
+# percentage: project.css("ul.project-stats li.first.funded strong").text
 
 # require libraries/modules here
 require 'nokogiri'
